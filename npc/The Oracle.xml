@@ -1,12 +1,8 @@
-<?xml version="1.0"?>
-<npc name="The Oracle" script="The Oracle.lua" access="3" floorchange="0" walkinterval="0">
-<health now="1000" max="1000"/>	
-<look typeex="1448"/>
+<npc name="The Oracle" script="The Oracle.lua" walkinterval="0" speechbubble="3">
+	<look typeex="1448" />
 	<parameters>
-<parameter key="idletime" value="120"/>
-<parameter key="talkradius" value="3"/>
-<parameter key="message_walkaway" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!"/>
-<parameter key="message_farewell" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!"/>
-<parameter key="message_idletimeout" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!"/>
-	</parameters>                         
+		<parameter key="message_greet" value="|PLAYERNAME|, ARE YOU PREPARED TO FACE YOUR DESTINY?" />
+		<parameter key="message_walkaway" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!" />
+		<parameter key="message_farewell" value="COME BACK WHEN YOU ARE PREPARED TO FACE YOUR DESTINY!" />
+	</parameters>
 </npc>
