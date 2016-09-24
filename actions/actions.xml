@@ -114,4 +114,10 @@
 	<action itemid="3743" script="other/transforms.lua" />
 	<action itemid="4404" script="other/transforms.lua" />
 	<action fromaid="18488" toaid="18492" script="other/skilltrainer.lua" />
+
+	<!-- .:: Rookgaard ::. --> 
+	<!-- Switchs -->
+	<action actionid="11005" script="tibia/rookgaard/lever_sewers.lua"/>
+
+	
 </actions>

@@ -19,7 +19,7 @@ if NpcSystem == nil then
 	dofile('data/npc/lib/npcsystem/keywordhandler.lua')
 	dofile('data/npc/lib/npcsystem/npchandler.lua')
 	dofile('data/npc/lib/npcsystem/modules.lua')
-    dofile('data/npc/lib/npcsystem/queue.lua')
+   	dofile('data/npc/lib/npcsystem/queue.lua')
 
 	-- Global npc constants:
 
@@ -49,8 +49,8 @@ if NpcSystem == nil then
 	TAG_ITEMCOUNT = '|ITEMCOUNT|'
 	TAG_TOTALCOST = '|TOTALCOST|'
 	TAG_ITEMNAME = '|ITEMNAME|'
-    TAG_QUEUESIZE = '|QUEUESIZE|'
-    TAG_TIME = '|TIME|'
+    	TAG_QUEUESIZE = '|QUEUESIZE|'
+    	TAG_TIME = '|TIME|'
 
 	NpcSystem = {}
 

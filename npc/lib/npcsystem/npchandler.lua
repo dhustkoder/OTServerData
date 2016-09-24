@@ -42,7 +42,7 @@ if NpcHandler == nil then
 	MESSAGE_ALREADYFOCUSED = 21 -- When the player already has the focus of this npc.
 	MESSAGE_WALKAWAY_MALE = 22 -- When a male player walks out of the talkRadius of the npc.
 	MESSAGE_WALKAWAY_FEMALE = 23 -- When a female player walks out of the talkRadius of the npc.
-    MESSAGE_PLACEDINQUEUE	= 24 -- When the player has been placed in the costumer queue.
+	MESSAGE_PLACEDINQUEUE	= 24 -- When the player has been placed in the costumer queue.
 
 	-- Constant indexes for callback functions. These are also used for module callback ids.
 	CALLBACK_CREATURE_APPEAR = 1
@@ -69,8 +69,8 @@ if NpcHandler == nil then
 	TAG_ITEMCOUNT = "|ITEMCOUNT|"
 	TAG_TOTALCOST = "|TOTALCOST|"
 	TAG_ITEMNAME = "|ITEMNAME|"
-    TAG_QUEUESIZE = "|QUEUESIZE|"
-    TAG_TIME = "|TIME|"
+   	TAG_QUEUESIZE = "|QUEUESIZE|"
+    	TAG_TIME = "|TIME|"
 
 	NpcHandler = {
 		keywordHandler = nil,
@@ -112,7 +112,7 @@ if NpcHandler == nil then
 			[MESSAGE_ALREADYFOCUSED] = "|PLAYERNAME|, I am already talking to you.",
 			[MESSAGE_WALKAWAY_MALE] = "Good bye.",
 			[MESSAGE_WALKAWAY_FEMALE] = "Good bye.",
-            [MESSAGE_PLACEDINQUEUE] 	= '|PLAYERNAME|, please wait for your turn. There are |QUEUESIZE| customers before you.'    
+			[MESSAGE_PLACEDINQUEUE] = '|PLAYERNAME|, please wait for your turn. There are |QUEUESIZE| customers before you.'    
 		}
 	}
 

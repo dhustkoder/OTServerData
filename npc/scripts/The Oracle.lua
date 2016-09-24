@@ -32,7 +32,7 @@ local function creatureSayCallback(cid, type, msg)
 		return false
 	end
 
-	if msgcontains(msg, "yes") and npcHandler.topic[cid] == 0 then
+	if msgcontains(msg, "yes") and npcHandler.topic[cid] == 0 or npcHandler.topic[cid] == nil then
 		npcHandler:say("IN WHICH TOWN DO YOU WANT TO LIVE: {RHYVES}?", cid)
 		npcHandler.topic[cid] = 1
 	elseif npcHandler.topic[cid] == 1 then
